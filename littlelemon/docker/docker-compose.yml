@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+    mysql:
+        image: mysql
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: "root@123"
+            MYSQL_DATABASE: littlelemon
+            MYSQL_USER: admindjango
+            MYSQL_PASSWORD: "employee@123!"
