@@ -9,6 +9,8 @@ pymysql = "*"
 cryptography = "*"
 djangorestframework = "*"
 djoser = "*"
+pytest-django = "*"
+pytest-cov = "*"
 
 [dev-packages]
 
